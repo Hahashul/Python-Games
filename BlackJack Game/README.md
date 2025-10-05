@@ -6,17 +6,6 @@ This project is built purely in Python and simulates a game of Blackjack (also k
 
 The entire game logic is contained in modular functions for easy readability, making it straightforward for anyone to jump in and understand how the scoring or dealing works. It's a great example of a functional, text-based game built with fundamental Python concepts.
 
-# Getting Started
-Prerequisites
-You only need Python 3 installed on your system to run this game.
-
-Installation
-Clone the Repository:
-
-git clone [https://github.com/Hahashul/blackjack.git](https://github.com/Hahashul/blackjack.git)
-cd BlackJack
-
-
 # File Structure:
 Ensure both the main game file (blackjack_game.py or your file name) and the visual asset file (art.py) are in the same folder.
 
