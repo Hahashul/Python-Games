@@ -29,12 +29,14 @@ used_letters = []
 while not game_over:    
     print(f"**************************** {lives}/6 LIVES LEFT ****************************")
     guess = input("Guess a letter: ").lower()
+
+# If the letter has already been guessed, prompt the user to try again    
+    while guess in used_letters:
+        print(f"You have already guessed the letter {guess}, try again.")
+        guess = input("Guess a letter: ").lower()
 # Check if the letter has already been guessed
     if guess not in used_letters:
         used_letters += guess
-# If the letter has already been guessed, prompt the user to try again    
-    if guess in correct_letters:
-        print(f"You have already guessed the letter {guess}, try again.")
 # Create a display string to show the current state of the word    
     display = ""
 # Update the display string based on the guessed letter
