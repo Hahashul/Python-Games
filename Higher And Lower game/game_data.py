@@ -238,12 +238,6 @@ data = [
 
 # ------------------ BRANDS ------------------
 {
-    'name': 'Instagram (Brand)',
-    'follower_count': 670,
-    'description': 'Social media platform',
-    'country': 'United States'
-},
-{
     'name': 'Nike',
     'follower_count': 306,
     'description': 'Sportswear brand',
